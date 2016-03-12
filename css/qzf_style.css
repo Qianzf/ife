@@ -1,0 +1,106 @@
+
+@charset:utf8;
+*{
+	margin:0;
+	padding:0;
+	color:white;
+}
+body{
+	background-image: url(../img/bg6.jpg);
+}
+.all{
+	
+	margin:0 auto;
+	width:1200px;
+}
+
+.menu{
+	float:left;
+	width:20%;
+	height:770px;
+	background-image:url(../img/bg4.jpg);
+	background-color:lightblue;
+
+}
+
+.menu .photo{
+	width:120px; 
+	height:120px; 
+	margin:40px auto;
+	border-radius:50%; 
+	overflow:hidden;
+
+} 
+
+.menu .name{
+	width:200px;
+	background-color:black;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	font-size:15px;
+	padding:5px 0 5px 0;
+	margin:10px 10px 20px 0;
+	color:white;
+}
+
+
+.menu .other{
+	width:200px;
+	background-color:black;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:14px;
+	padding:5px 0 5px 0;
+	color:white;
+	float:right;
+	margin:10px 0px 20px 50px;
+}
+
+.content{
+	float:left;
+	width:80%;
+	height:770px;
+}
+.content .head{
+	padding-left:12px;
+	padding-top:10px;
+	margin-top:20px;
+	font-size:25px;
+	height:7%;
+	font-family:"微软雅黑";
+	
+}
+
+.content .head2{
+	padding-left:12px;
+	font-size:20px;
+	font-family:"微软雅黑";
+	
+}
+
+.content .info1{
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:15px;
+}
+.footer{
+	clear:both;
+	text-align:center;
+	font-family:"微软雅黑";
+	padding:10px 0 10px 0;
+	background-color:black;
+	color:white;
+}
+.menu a{
+	color:gray;
+	text-decoration:none;
+	}	
+
+.menu a:hover {
+	color:blue;
+	display:block;
+	text-decoration:none;
+	}	/* 鼠标指针移动到链接上 */
+
+
