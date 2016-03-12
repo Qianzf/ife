@@ -27,13 +27,13 @@ body{
 	width:120px; 
 	height:120px; 
 	margin:40px auto;
-	border-radius:50%; 
+	border-radius:100%; 
 	overflow:hidden;
 
 } 
 
 .menu .name{
-	width:200px;
+	width:85%;
 	background-color:black;
 	text-align:center;
 	font-family:"微软雅黑";
@@ -46,7 +46,7 @@ body{
 
 
 .menu .other{
-	width:200px;
+	width:85%;
 	background-color:black;
 	text-align:center;
 	font-family:"微软雅黑";
@@ -74,9 +74,16 @@ body{
 
 .content .head2{
 	padding-left:12px;
-	font-size:20px;
+	font-size:18px;
 	font-family:"微软雅黑";
 	
+}
+
+.content .deliever{
+	width:100%;
+	height:2px;
+	margin:15px 0 15px 0;
+	background-color:white;
 }
 
 .content .info1{

@@ -10,25 +10,37 @@
 <link rel="stylesheet" href="css/font-awesome.min.css">
 
 <title>About Qianzf|关于Qianzf</title>
-<script lang="javascript" src="./js/function.js"></script>
+<script type="text/javascript" src="js/jquery-2.0.0.js"></script>
+<script type="text/javascript"  src="js/jQueryRotate.2.2.js"></script>
+<script type="text/javascript" src="js/qzf_function.js"></script>
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jQueryRotate.2.2.js"></script>
+
 </head>
 <body >
 
 	<div class="all">
-		
+		<!--左边栏-->
 		<div class="menu">
-			<div class="photo">
+			<div id="photo" class="photo" onmouseover="rotation()">
 				<img src="img/qzf_photo.png" alt="头像" />
 			</div>
-			<div class="name"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;<span>Qianzf</span></div>
-			<div class="other"><i class="fa fa-weixin"></i>&nbsp;&nbsp;i893613515</div>
-			<div class="other"><i class="fa fa-qq"></i>&nbsp;&nbsp;&nbsp;893613515</div>
-			<div class="other"><a href="mailto:mailbox1024@163.com"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;ConnectMe</a></div>
+			<div id="user" class="name" onmouseover="resize(this)" onmouseout="resize(this)"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;<span>Qianzf</span></div>
+			<div id="weixin" class="other" onmouseover="resize(this)" onmouseout="resize(this)"><i class="fa fa-weixin"></i>&nbsp;&nbsp;i893613515</div>
+			<div id="qq" class="other" onmouseover="resize(this)" onmouseout="resize(this)"><i class="fa fa-qq"></i>&nbsp;&nbsp;&nbsp;893613515</div>
+			<div id="mail" class="other" onmouseover="resize(this)" onmouseout="resize(this)"><a href="mailto:mailbox1024@163.com"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;ConnectMe</a></div>
 		</div>
+		<!--右边主内容区-->
 		<div class="content">
+			<!--设置大标题-->
 			<div class="head">Everything you see exists together in a delicate balance.</div>
+			<!--设置小标题-->
 			<div class="head2">万物自在平衡</div>
-			<hr/>
+			<!--内容分割线-->
+			<div class="deliever"></div>
+			<!--主显示区-->
 			<div class="info1">
 
 			Night gathers, <br/>
@@ -62,7 +74,7 @@
 			——— 来自《权利的游戏》守夜人誓词<br/>
 			</div>
 		</div>
-
+		<!--脚标-->
 		<div class="footer">
 			&copy; 2016 Qian.info.. All Rights Reserved.
 		</div>
