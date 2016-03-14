@@ -1,0 +1,79 @@
+﻿
+@charset utf8;
+/*
+*这个是task3的css文件
+ 作者：Qianzf
+ 时间：2016年3月14日17:10:03
+*/
+
+*{
+	margin:0;
+	border:1px solid #999;
+	background-color:white;
+}
+/*设置默认背景为白色*/
+html{
+	padding:20px;
+	/*
+	因为html继承了body元素的内容所以需要重新设置下面的元素！
+	*/
+	background-color:white;
+	border-width:0;
+}
+
+body{
+	/*习惯性居中对齐*/
+	margin:0 auto;
+	/*高度始终为最高元素高度*/
+	min-height:530px;
+	padding:20px;
+	background-color:#eee;
+}
+
+.team_logo{
+		width:160px;
+		height:80px;
+		background-color:white;
+		float:left;
+		padding:20px;
+		overflow:hidden;
+}
+
+.team_logo .team_img{
+	width:80px;
+	height:80px;
+	float:left;
+	background-color:#eee;
+	
+}
+
+.team_logo .team_name{
+	float:left;
+	padding-left:4px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	border-width:0;
+
+}
+
+.team_introduce{
+	min-height:400px;
+	margin:0 140px auto 220px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	padding:20px;
+}
+.team_member{
+	width:120px;
+	height:100%;
+	float:right;
+}
+.team_member .person_logo{
+	height:80px;
+	width:80px;
+	margin:20px;
+	overflow:hidden;
+	background-color:#eee;
+}
+
+
