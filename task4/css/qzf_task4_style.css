@@ -1,0 +1,42 @@
+@charset utf8;
+/*
+*这个是task4的css文件
+ 作者：Qianzf
+ 时间：2016年3月14日23:46:35
+*/
+*{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+html{
+	background-color:white;
+}
+body{
+	background-color:#ccc;
+	width:400px;
+	height:200px;
+	margin:auto; 
+	position: absolute;  
+	top: 0; left: 0; bottom: 0; right: 0;  
+	
+}
+
+.circle1 {
+    width: 100px;
+    height: 100px;
+    background: #fc0;
+	position:absolute;
+    border-radius: 50px;
+	margin-top:-50px;
+	margin-left:-50px;
+}
+
+.circle2{
+	width: 100px;
+    height: 100px;
+    background: #fc0;
+	position:absolute;
+	margin:150px 0 0 350px;
+    border-radius: 50px;
+}
