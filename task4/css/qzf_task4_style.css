@@ -1,8 +1,8 @@
 @charset utf8;
 /*
-*Õâ¸öÊÇtask4µÄcssÎÄ¼þ
- ×÷Õß£ºQianzf
- Ê±¼ä£º2016Äê3ÔÂ14ÈÕ23:46:35
+*è¿™ä¸ªæ˜¯task4çš„cssæ–‡ä»¶
+ ä½œè€…ï¼šQianzf
+ æ—¶é—´ï¼š2016å¹´3æœˆ14æ—¥23:46:35
 */
 *{
 	margin:0;
@@ -26,17 +26,17 @@ body{
     width: 100px;
     height: 100px;
     background: #fc0;
-	position:absolute;
+    position:absolute;
     border-radius: 50px;
-	margin-top:-50px;
-	margin-left:-50px;
+    margin-top:-50px;
+    margin-left:-50px;
 }
 
 .circle2{
-	width: 100px;
+    width: 100px;
     height: 100px;
     background: #fc0;
-	position:absolute;
-	margin:150px 0 0 350px;
+    position:absolute;
+    margin:150px 0 0 350px;
     border-radius: 50px;
 }
